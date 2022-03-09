@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap Web</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">	
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<nav class="navbar nav bg-dark navbar-dark navbar-expand-lg fixed-top">
+
+	<div class="container">
+
+		<a href="#main" class="navbar-brand"><img src="img/navbar-logo.svg"></a>
+
+		<button class="navbar-toggler bg-warning text-white" data-toggle="collapse" data-target="#navMain">
+			<span class="white-span">Menu</span>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navMain">
+			<ul class="navbar-nav ml-auto">	
+				<li class="nav-item">
+					<a href="#Services" class="nav-link text-uppercase ">Services</a>
+				</li>
+				<li class="nav-item">
+					<a href="#Portfolio" class="nav-link text-uppercase ">Portfolio</a>
+				</li>
+				<li class="nav-item">
+					<a href="#About" class="nav-link text-uppercase ">About</a>
+				</li>
+				<li class="nav-item">
+					<a href="#Team" class="nav-link text-uppercase ">Team</a>
+				</li>
+				<li class="nav-item">
+					<a href="#Contact" class="nav-link text-uppercase ">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>
+
+
+<section class="back-img  d-flex flex-column align-items-center justify-content-center text-center" id="main">
+	<div class="img-opacity d-flex flex-column align-items-center justify-content-center text-center ">
+		<h3 class="text-white font-italic mb-4">Welcome To Our Studio!</h3>
+		<h1 class="text-white font-weight-bolder mb-5">IT'S NICE TO MEET YOU</h1>
+		<button class="btn btn-warning text-white btn-lg font-weight-bolder px-md-5 py-md-3 mt-5">TELL ME MORE
+		</button>
+	</div>
+</section>
+
+
+<section id="Services" class=" pad">
+	<div class="container">
+		<div class="text-center mb-5">
+			<h1>SERVICES</h1>
+			<p class="font-italic text-muted lead" >Lorem ipsum dolor sit amet consectetur.</p>
+		</div>
+
+		<div class="row">
+			
+			<div class="col-md-6 col-lg-4 mb-4 mb-lg-0 text-center">
+				<div class="icon "><i class="fas fa-shopping-cart text-white rounded-circle bg-warning"></i></div>
+				<h2>E-Commerce</h2>
+				<p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+			</div>
+			<div class="col-md-6 col-lg-4 mb-4 mb-lg-0 text-center">
+				<div class="icon"><i class="fas fa-laptop text-white rounded-circle bg-warning"></i></div>
+				<h2>E-Commerce</h2>
+				<p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+			</div>
+			<div class="col-md-6 col-lg-4 mb-4 mb-lg-0 text-center">
+				<div class="icon"><i class="fas fa-lock text-white rounded-circle bg-warning"></i></div>
+				<h2>E-Commerce</h2>
+				<p class="text-muted lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section  id="Portfolio" class=" pad color" >
+
+	<div class="container">
+		<div class="text-center mb-5">
+			<h1>PORTFOLIO</h1>
+			<p class="font-italic text-muted lead" >Lorem ipsum dolor sit amet consectetur.</p>
+		</div>
+
+		<div class="row row-cols-md-3 row-cols-sm-2 row-cols-1  justify-content-center">
+			<div class=" col-sm-6 col-lg-4 center mb-4" data-toggle="modal" data-target="#Modal">
+				<div class="card border-0">
+					<div class="w-100 after">
+						<img src="img/carusel-1.jpg" class="w-100 height">
+						<div class="orange"></div>
+						<i class="fas fa-plus"></i>
+					</div>
+					<div class="card-body text-center">
+						<h2>Threads</h2>
+						<p class="lead text-muted font-italic">Illustration</p>
+					</div>
+				</div>
+			</div>
+			<div class=" col center mb-4" data-toggle="modal" data-target="#Modal">
+				<div class="card border-0">
+					<div class="w-100 after">
+						<img src="img/carusel-2.jpg" class="w-100 height">
+						<div class="orange"></div>
+						<i class="fas fa-plus"></i>
+					</div>
+					<div class="card-body text-center">
+						<h2>Explore</h2>
+						<p class="lead text-muted font-italic">Graphic Design</p>
+					</div>
+				</div>
+			</div>
+			<div class=" col center mb-4" data-toggle="modal" data-target="#Modal">
+				<div class="card border-0">
+					<div class="w-100 after">
+						<img src="img/carusel-3.jpg" class="w-100 height">
+						<div class="orange"></div>
+						<i class="fas fa-plus"></i>
+					</div>
+					<div class="card-body text-center">
+						<h2>Finish</h2>
+						<p class="lead text-muted font-italic">Identity</p>
+					</div>
+				</div>
+			</div>
+			<div class=" col center mb-4" data-toggle="modal" data-target="#Modal">
+				<div class="card border-0">
+					<div class="w-100 after">
+						<img src="img/carusel-1.jpg" class="w-100 height">
+						<div class="orange"></div>
+						<i class="fas fa-plus"></i>
+					</div>
+					<div class="card-body text-center">
+						<h2>Lines</h2>
+						<p class="lead text-muted font-italic">Branding</p>
+					</div>
+				</div>
+			</div>
+			<div class=" col center mb-4" data-toggle="modal" data-target="#Modal">
+				<div class="card border-0">
+					<div class="w-100 after">
+						<img src="img/carusel-2.jpg" class="w-100 height">
+						<div class="orange"></div>
+						<i class="fas fa-plus"></i>
+					</div>
+					<div class="card-body text-center">
+						<h2>Southwest</h2>
+						<p class="lead text-muted font-italic">Website Design</p>
+					</div>
+				</div>
+			</div>
+			<div class=" col center mb-4 " data-toggle="modal" data-target="#Modal">
+				<div class="card border-0">
+					<div class="w-100 after">
+						<img src="img/carusel-3.jpg" class="w-100 height">
+						<div class="orange"></div>
+						<i class="fas fa-plus"></i>
+					</div>
+					<div class="card-body text-center">
+						<h2>Window</h2>
+						<p class="lead text-muted font-italic">Photography</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<div class="modal fade" id="Modal">
+	<div class="modal-dialog modal-xl">
+		<div class="modal-content">
+			<div class="modal-header ml-auto border-0" data-dismiss="modal">&times;</div>
+			<div class="modal-body text-center">
+				<h1>PROJECT NAME</h1>
+				<p class="text-muted font-italic">Lorem ipsum dolor sit amet consectetur.</p>
+				<div class="container px-5 ">
+					<img src="img/world-map-2.jpeg" class="mb-5 img-fluid w-100">
+					<p class="mb-5 mx-5">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+					</p>
+					<ul class="list-unstyled">
+						<li>Date: January 2020</li>
+						<li>Client: Threads</li>
+						<li>Category: Illustration</li>
+					</ul>
+					<button class="btn btn-warning text-white mb-5 mt-2 pb-2" data-dismiss="modal">
+						<span class="close-span">&times;</span> Close Project
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section id="About" class="pad"  >
+	<div class="container">
+		<div class="text-center mb-5">
+			<h1>ABOUT</h1>
+			<p class="font-italic text-muted lead" >Lorem ipsum dolor sit amet consectetur.</p>
+		</div>
+
+		<div class="about-body mt-5" >
+			<div class="center-line"></div>
+			<ul class="list-unstyled d-flex flex-column align-items-center" >
+				<li class="d-flex mb-5">
+					<div class="about-text text-right">
+						<h3>2009-2011 Our Humble Beginnings</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+					<div>
+						<img src="img/about-1.jpg" class="rounded-circle about-img-1">
+					</div>
+				</li>
+				<li class="d-flex mb-5 mt-5">
+					<div>
+						<img src="img/about-2.jpg" class="rounded-circle about-img-2">
+					</div>
+					<div class="about-text text-left">
+						<h3>2009-2011 Our Humble Beginnings</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+				</li>
+				<li class="d-flex mb-5 mt-5">
+					<div class="about-text text-right">
+						<h3>2009-2011 Our Humble Beginnings</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+					<div>
+						<img src="img/about-3.jpg" class="rounded-circle about-img-1">
+					</div>
+				</li>
+				<li class="d-flex mb-5 mt-5">
+					<div>
+						<img src="img/about-4.jpg" class="rounded-circle about-img-2">
+					</div>
+					<div class="about-text text-left">
+						<h3>2009-2011 Our Humble Beginnings</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+				</li>
+				<li class="d-flex justify-content-center mt-5">
+					<div class="yellow-boll bg-warning rounded-circle d-flex justify-content-center align-items-center">
+						<p class="ml-2 mt-2">Be Part <br> Of Our <br> Story!</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+		<div class="about-body-2 mt-5">
+			<!-- <div class="start-line"></div> -->
+			<ul class="list-unstyled timeline">
+				<li class="d-flex mb-5">
+					<div>
+						<img src="img/about-1.jpg" class="rounded-circle about-img-3">
+					</div>
+					<div class="about-text-2 text-left">
+						<h3>2009-2011 Our Humble Beginnings</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+				</li>
+				<li class="d-flex mb-5 mt-5">
+					<div>
+						<img src="img/about-2.jpg" class="rounded-circle about-img-3">
+					</div>
+					<div class="about-text-2 text-left">
+						<h3>2009-2011 Our Humble Beginnings</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+				</li>
+				<li class="d-flex mb-5 mt-5">
+					<div>
+						<img src="img/about-3.jpg" class="rounded-circle about-img-3">
+					</div>
+					<div class="about-text-2 text-left">
+						<h3>2009-2011 Our Humble Beginnings</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+				</li>
+				<li class="d-flex mb-5 mt-5">
+					<div>
+						<img src="img/about-4.jpg" class="rounded-circle about-img-3">
+					</div>
+					<div class="about-text-2 text-left">
+						<h3>2009-2011 Our Humble Beginnings</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+					</div>
+				</li>
+				<li class="mt-5">
+					<div class="yellow-boll-2 bg-warning rounded-circle d-flex justify-content-center align-items-center">
+						<p class="ml-2 mt-2">Be Part <br> Of Our <br> Story!</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+		<div class="mt-5">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.0608316723183!2d49.82649351489359!3d40.38534436547254!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307d9be60052ab%3A0xd7852fa710c6b11a!2sCaspian%20Plaza!5e0!3m2!1sru!2s!4v1617624352213!5m2!1sru!2s" width="1000" height="450" style="border:0;width: 100%;" allowfullscreen="" loading="lazy"></iframe>
+		</div>
+	</div>
+
+</section>
+
+
+<section id="Team" class="pad color">
+	<div class="container">
+		<div class="text-center mb-5">
+			<h1>OUR AMAZING TEAM</h1>
+			<p class="font-italic text-muted lead" >Lorem ipsum dolor sit amet consectetur.</p>
+		</div>
+	
+		<div class="row row-cols-lg-3 row-cols-md-2 row-cols-1">
+
+			<div class="col text-center mb-4 mb-lg-0">
+				<img src="img/profil-1.jpg" class="rounded-circle team-img mb-3">
+				<h2>Kay Garland</h2>
+				<p class="lead text-muted font-weight-normal">Lead Designer</p>
+				<ul class="list-unstyled d-flex justify-content-center mt-4">
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center"><i class="fab fa-twitter"></i></li>
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center mx-4"><i class="fab fa-facebook-f"></i></li>
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center"><i class="fab fa-linkedin-in"></i></li>
+				</ul>
+			</div>
+
+			<div class="col text-center mb-4 mb-lg-0">
+				<img src="img/profil-2.jpg" class="rounded-circle team-img mb-3">
+				<h2>Larry Parker</h2>
+				<p class="lead text-muted font-weight-normal">Lead Marketer</p>
+				<ul class="list-unstyled d-flex justify-content-center mt-4">
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center"><i class="fab fa-twitter"></i></li>
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center mx-4"><i class="fab fa-facebook-f"></i></li>
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center"><i class="fab fa-linkedin-in"></i></li>
+				</ul>
+			</div>
+
+			<div class="col text-center mb-4 mb-lg-0">
+				<img src="img/profil-3.jpg" class="rounded-circle team-img mb-3">
+				<h2>Diana Petersen</h2>
+				<p class="lead text-muted font-weight-normal">Lead Developer</p>
+				<ul class="list-unstyled d-flex justify-content-center mt-4">
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center"><i class="fab fa-twitter"></i></li>
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center mx-4"><i class="fab fa-facebook-f"></i></li>
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center"><i class="fab fa-linkedin-in"></i></li>
+				</ul>
+			</div>
+
+		</div>	
+		<p class="text-muted lead text-center mt-5 font-weight-normal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos<br> non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>	
+	</div>
+</section>
+
+<div class="container">
+	<div class="row mx-0 my-5">
+		<div class="col-md-3 col-6 mb-4 mb-md-0"> <img src="img/envato.jpg">
+		</div>
+		<div class="col-md-3 col-6 mb-4 mb-md-0"> <img src="img/designmodo.jpg">
+		</div>
+		<div class="col-md-3 col-6">
+			<img src="img/themeforest.jpg">
+		</div>
+		<div class="col-md-3 col-6">
+			<img src="img/creative-market.jpg">		
+		</div>
+	</div>
+</div>
+
+<section id="Contact" class="pad" >
+	<div class="container">
+		<div class="text-center mb-5 text-white">
+			<h1>CONTACT US</h1>
+			<p class="font-italic lead text-muted" >Lorem ipsum dolor sit amet consectetur.</p>
+		</div>
+		<form>
+			<div class="row row-cols-md-2 row-cols-1">
+				<div class="col">
+					<input type="text" name="" placeholder="Your Name *" class="form-control mb-4">
+					<input type="email" name="" placeholder="Your Email *" class="form-control mb-4">
+					<input type="number" name="" placeholder="Your Phone *" class="form-control mb-md-0 mb-4">
+				</div>
+				<div class="col">
+					<textarea class="form-control" placeholder="Your Message *"></textarea>
+				</div>
+			</div>
+			<div class="d-flex justify-content-center contact-btn">
+				<button type="button" class="btn py-4 px-5 mt-5 btn-warning text-white font-weight-bolder ">SEND MESSAGE</button>
+			</div>
+		</form>
+	</div>
+</section>
+
+<footer>
+	<div class="container py-3">
+		<div class="row row-cols-lg-3 row-cols-1 ml-5 ">
+			<div class="row justify-content-center align-items-center">Copyright © Your Website 2020</div>
+			<div class="row justify-content-center align-items-center">
+				<ul class="list-unstyled d-flex justify-content-center mt-4 ml-0 ml-lg-5">
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center"><i class="fab fa-twitter"></i></li>
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center mx-4"><i class="fab fa-facebook-f"></i></li>
+					<li class="bg-dark rounded-circle  text-white d-flex justify-content-center align-items-center"><i class="fab fa-linkedin-in"></i></li>
+				</ul>
+			</div>
+			<div class="row justify-content-center align-items-center footer-link">
+				<a href="#" class="mr-3">Privacy Policy</a>
+				<a href="#" class=""> Terms of Use</a>
+			</div>
+		</div>
+	</div>
+</footer>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

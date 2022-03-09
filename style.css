@@ -1,0 +1,319 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+section:hover  .navbar{
+	background-color: : black;
+}
+.pad{
+	padding: 5rem 0;
+}
+.active{
+	color: #E4C72D !important;
+}
+
+.navbar{
+	background-color: #000 !important;	
+}
+.navbar-brand img{
+	height: 2rem;
+}
+
+.nav-link{
+	letter-spacing: .1rem;
+	font-size: 1.09rem
+}
+
+.nav-link:hover {
+	color: #E4C72D !important;
+}
+
+.back-img{
+	background-image: url("img/bck-img.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 45rem;	
+}
+.img-opacity{
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, .8);
+}
+
+.back-img h3{
+	font-size: 2.5rem;
+	opacity: .7;
+}
+
+.back-img h1{
+	font-size: 4rem;
+	opacity: .7;
+}
+
+.navbar-toggler-icon{
+	font-size: 13px;
+}
+
+.navbar-toggler{
+	color: #000 !important;
+}
+
+.icon i{
+	font-size: 3.5rem;	
+	padding: 2rem;
+	margin-bottom: 1rem;	
+	opacity: .7;
+}
+
+.fa-lock{
+	padding:2rem 2.3rem !important 
+}
+.fa-laptop{
+	padding: 2rem 1.9rem !important
+}
+
+.color{
+	background-color: #f8f9fa
+}
+
+.height{
+	height: 16rem
+}
+ 
+.after {
+	position: relative;
+	cursor: pointer;
+
+}
+.orange{
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #ffc107 ;
+	z-index: 2;
+	height: 100%;
+	width: 100%;
+	opacity: .7;
+	font-size: 30px;
+	color: #fff;
+}
+.fa-plus{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%); 
+	color: #fff;
+	z-index: 2;
+	font-size: 3.3rem;
+}
+
+.after:hover .orange,
+.after:hover .fa-plus{
+	display: block;
+
+}
+
+.center{
+	max-width: 22rem;
+	min-width: 22rem;
+}
+
+.modal-header{
+	font-size: 2rem;
+	padding-top: 0;
+	cursor: pointer;
+}
+
+.modal-body h1{
+	font-size: 3rem
+}
+.modal-body img{
+	height: 30rem;
+}
+.close-span{
+	font-size: 1.1rem;
+	font-weight: bold;
+}
+
+.about-body{
+	position: relative;
+}
+.center-line{
+	position: absolute;
+	height: 100%;
+	width: 1px;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #e9ecef;
+}
+.timeline{
+	position: relative;
+}
+
+.timeline::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 55px;
+	height: 100%;
+	width: 2px;
+	border: 1px solid #e9ecef;
+
+}
+.about-text{
+	width: 20rem;
+}
+.about-img-1{
+	position: relative;
+	margin-right: 360px;
+	margin-left: 40px;
+	z-index: 2;
+	height: 10rem;
+	border: 5px solid #e9ecef;
+}
+
+.about-img-2{
+	position: relative;
+	margin-left: 360px;
+	margin-right: 40px;
+	z-index: 2;
+	height: 10rem;
+	border: 5px solid #e9ecef;
+}
+
+
+.yellow-boll{
+	height: 9rem;
+	width: 9rem;
+	border: 5px solid #e9ecef;
+	z-index: 2;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.about-body-2{
+	position: relative;
+	display: none;
+}
+
+.start-line{
+	position: absolute;
+	height: 100%;
+	width: 1px;
+	left: 8%;
+	border: 1px solid #e9ecef;
+}
+.about-img-3{
+	position: relative;
+	z-index: 2;
+	height: 7rem;
+	border: 5px solid #e9ecef;
+	margin-right: 20px;
+}
+
+.yellow-boll-2{
+	position: relative;
+	height: 7rem;
+	width: 7rem;
+	border: 5px solid #e9ecef;
+	z-index: 2;
+	font-size: 14px;
+	font-weight: bold;
+	color: #fff;
+}
+.about-text-2{
+	width: 21rem;
+}
+
+.team-img{
+	height: 14rem;
+	border: 8px solid #e9ecef;
+}
+
+.fab{
+	padding: 13px;
+}
+
+.fa-facebook-f{
+	padding: 10px 15px
+}
+
+
+#Contact{
+	background-image: url("img/world-map-2.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.col input{
+	padding: 2rem;
+	font-size: 17px;
+	font-weight: bolder;
+}
+
+.col textarea{
+	padding: 1rem 2rem 6rem 2rem ;
+	font-size: 17px;
+	font-weight: bolder;
+	color: #F5F4EF ;
+	height: 100%;
+}
+
+.contact-btn button{
+	font-size: 18px;
+}
+.col input:focus,
+.col textarea:focus{
+	border-color: #ffc107 !important;
+}
+.col input::placeholder,
+.col textarea::placeholder{
+	color: #D7D6D4 !important;
+}
+
+.footer-link a{
+	color: #ffc107 !important;
+}
+
+@media (max-width: 767px){
+	.center{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.start-line{
+		left: 11%;
+	}
+}
+
+@media (max-width: 992px){
+	.modal-body img{
+		height: 15rem !important;
+	}
+}
+@media (max-width: 1230px){
+	.about-img-1, .about-img-2{
+		height: 7rem;
+	}
+}
+@media (max-width: 934px){
+	.about-body{
+		display: none;
+	}
+	.about-body-2{
+		display: block;
+	}
+}
